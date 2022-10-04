@@ -19,7 +19,7 @@ Discord messages are created on the configured webhook channel for:
 ### With the following automatic installation script (It is recommended that you use a different server. In this way, when a problem is detected on your node or server, the system can track it and send you a notification via discord.)
 
 ```
-wget -O https://raw.githubusercontent.com/sinirlibiber/HAQQREHBER/main/Nodecord?token=GHSAT0AAAAAABU6QVCDYCZFRH2NSMNFOAHKYZ4CEIQ && chmod +x NODECORD.sh && ./NODECORD.sh
+wget -O HAQ.sh https://raw.githubusercontent.com/sinirlibiber/Haqq-Kurulum/main/nodecord && chmod +x HAQ.sh && ./HAQ.sh
 ```
 
 ## Post-installation steps: 
