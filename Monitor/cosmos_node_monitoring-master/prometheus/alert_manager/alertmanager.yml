@@ -1,0 +1,23 @@
+global:
+  resolve_timeout: 1m
+
+templates: 
+- 'templates/*'
+
+route:
+  group_by: ['...']
+  group_wait: 0s
+  group_interval: 5m
+  repeat_interval: 1h
+  
+  routes:
+    - receiver: 'node-monitoring'
+      group_by: ['...']
+
+  receiver: node-monitoring
+
+receivers:
+- name: 'node-monitoring'
+  webhook_configs:
+  - send_resolved: true
+    url: 'http://alertmanager-bot:8080'
