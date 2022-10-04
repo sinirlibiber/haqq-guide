@@ -40,5 +40,5 @@ root@cyberomanov:~/status#
 11. Check your logs with `cat $HOME/status/cosmos.log` or `tail $HOME/status/cosmos.log -f`.
 
 
-Status By Cyberomanov
+Referance: Status By Cyberomanov
 
