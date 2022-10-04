@@ -14,7 +14,7 @@ Instruction:
 6. Install some packages with `sudo apt-get install jq sysstat bc smartmontools fdisk -y`.
 7. Run `bash cosmos.sh` to check your settings. Normal output:
 ```
-root@cyberomanov:~/status# bash cosmos.sh
+root@gumusbey:~/status# bash cosmos.sh
  
 exp/me >>>>>> 247490/247490.
 gap >>>>>>>>> 0 blocks.
@@ -29,7 +29,7 @@ _upgrade >>>> v1.1.0.
 _time_left >> 15h 18m.
 _appr_time >> Sep 27, 16:36.
 
-root@cyberomanov:~/status#
+root@gumusbey:~/status#
 ```
 9. Add some rules with `chmod u+x $HOME/status/cosmos.sh`.
 10. Edit crontab with `crontab -e`.
@@ -40,5 +40,5 @@ root@cyberomanov:~/status#
 11. Check your logs with `cat $HOME/status/cosmos.log` or `tail $HOME/status/cosmos.log -f`.
 
 
-Referance: Status By Cyberomanov
+Referance: Status By gumusbey
 
