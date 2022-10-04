@@ -44,8 +44,7 @@ Will.
 
 Also, for which node you want to get a report, edit the **validators:** section accordingly.
 - Name: Network name (Kujira, Osmosis,Quicksilver, etc.)
-- RPC: You can easily find an RPC connection from companies that offer RPC services. I usually follow Polkachu.
-Example rpc for Kujira: **https://kujira-rpc.polkachu.com/**
+- RPC: You can easily find an RPC connection from companies that offer RPC services. 
 - Address: This is neither your wallet address nor your valoper address. Be careful with this one. It should be your consensus address. You can find it in explorers.
 - Chain-id: haqq_54211-2
 
