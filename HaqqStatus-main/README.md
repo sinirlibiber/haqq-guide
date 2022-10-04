@@ -38,3 +38,7 @@ root@cyberomanov:~/status#
 1,11,21,31,41,51 * * * * bash $HOME/status/cosmos.sh >> $HOME/status/cosmos.log 2>&1
 ```
 11. Check your logs with `cat $HOME/status/cosmos.log` or `tail $HOME/status/cosmos.log -f`.
+
+
+Status By Cyberomanov
+
