@@ -40,5 +40,5 @@ root@gumusbey:~/status#
 11. Check your logs with `cat $HOME/status/cosmos.log` or `tail $HOME/status/cosmos.log -f`.
 
 
-Referance: Status By gumusbey
+Referance: Status By cyberomanov
 
