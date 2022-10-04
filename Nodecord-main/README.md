@@ -101,19 +101,7 @@ cd && cd Nodecord && Nodecord monitor -f~/testnet.yaml
 
 When nodecord is launched, it will create a status message on the discord channel and change the ID of this message to `config.he will add to yaml.. Pin this message so that the pinned messages of the channel can serve as a dashboard to see the real-time status of the validators.
 
-![Nodeist](https://i.hizliresim.com/6qt5b5t.png )
-
-It will send warning messages when any error situation is detected.
-
-
-![Nodeist](https://i.hizliresim.com/8ow2s04.png )
-
-For high and critical errors, the user with the ID in the DISCORD_USER_ID section will be tagged.
-
-![Nodeist](https://i.hizliresim.com/2g4vd1k.png )
-
-It will send information message when the errors are fixed.
 
 
 ## Reference List
-This project [Strangelove Ventures](https://github.com/strangelove-ventures ) was inspired by.
+This project [Strangelove Ventures](https://github.com/strangelove-ventures )  and Nodeist was inspired by.
