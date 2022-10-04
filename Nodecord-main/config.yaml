@@ -1,0 +1,22 @@
+# Optionally uncomment to ignore specific alerts
+#alerts:
+#  ignore-alerts:
+#    - alertTypeMissedRecentBlocks
+
+notifications:
+  service: discord
+  discord:
+    webhook:
+      id: DISCORD_WEBHOOK_ID
+      token: DISCORD_WEBHOOK_TOKEN
+    alert-user-ids: 
+      - DISCORD_USER_ID
+    username: Nodecord
+validators:
+- name: Osmosis
+  rpc: http://SOME_OSMOSIS_RPC_SERVER:26657
+  address: BECH32_CONSVAL_ADDRESS
+  chain-id: osmosis-1
+  sentries:
+    - name: Sunucu-1
+      grpc: 1.2.3.4:9090
